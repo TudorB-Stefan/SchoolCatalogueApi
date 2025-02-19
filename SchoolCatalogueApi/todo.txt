@@ -1,0 +1,10 @@
+﻿SchoolCatalogueApi:
+-classes
+    -avg grade
+    -students number
+    -validation for students numbers
+    -one to many/many to many relationship to students
+-students
+    V   id/name        
+    -grade list
+    -avg grade

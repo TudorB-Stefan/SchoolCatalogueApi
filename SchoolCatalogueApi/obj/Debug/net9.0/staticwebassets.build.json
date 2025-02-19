@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "ITMCRZi3vqfyUUlQdhLB0IHkubpLLt2X7zh+9V0GYrg=",
+  "Source": "SchoolCatalogueApi",
+  "BasePath": "_content/SchoolCatalogueApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
