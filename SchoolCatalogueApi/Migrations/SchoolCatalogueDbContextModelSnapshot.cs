@@ -30,12 +30,13 @@ namespace SchoolCatalogueApi.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Serie")
+                        .IsRequired()
                         .HasColumnType("nvarchar(1)");
 
                     b.Property<bool?>("Valid")
                         .HasColumnType("bit");
 
-                    b.Property<int?>("Year")
+                    b.Property<int>("Year")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
